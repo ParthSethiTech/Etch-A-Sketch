@@ -26,7 +26,7 @@ ctx.stroke();
 function draw({ key }) {
   // increment the hue
   hue += 1;
-  ctx.strokeStyle = `hsl(${Math.random() * 360}, 100%, 50%)`;
+  ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
   ctx.beginPath();
   ctx.moveTo(x, y);
   // move x and y values depending on user interaction
